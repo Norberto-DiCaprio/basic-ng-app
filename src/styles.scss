@@ -1,0 +1,21 @@
+// Own variables.
+@import './assets/scss/variables';
+// Imports functions, variables, and mixins that are needed by other Bootstrap files.
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/utilities';
+// Reset scss for overwrite any library or user agent style.
+@import './assets/scss/reset';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
